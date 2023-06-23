@@ -31,3 +31,4 @@ CREATE TABLE movie_actors (
     FOREIGN KEY (actor_id) REFERENCES actors(id),
     PRIMARY KEY (movie_id, actor_id)
 );
+
